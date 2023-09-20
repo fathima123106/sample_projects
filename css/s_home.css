@@ -1,0 +1,25 @@
+.first_row{
+    background-color: #541554;
+}
+.dpdown_icon{
+    width: 13px;
+    padding-left: 4px;
+    
+}
+.navbar_text{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#logo1{
+    width: 30px;
+    height: 30px;
+
+}
+div button{
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    
+}
