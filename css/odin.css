@@ -1,3 +1,5 @@
+
+
 .odin_icon{
     /* width: 10px; */
     /* position: absolute;
@@ -10,4 +12,41 @@
 
     /* position: absolute;
     left: 30%; */
+}
+#yellow_text{
+    color: rgb(199, 138, 7);
+}
+#head_tag{
+    text-align: center;
+    
+}
+.btn-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.second_row{
+    background-image: url();
+    background-repeat: no-repeat;
+    
+}
+.third_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text_center{
+    text-align: center;
+
+}
+.text_center_para{
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 45px;
+    width: 48rem;
+    font-size: larger;
+    color: rgb(122, 122, 122);
+    
 }
