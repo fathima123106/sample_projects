@@ -23,3 +23,23 @@ div button{
     font-weight: bolder;
     
 }
+.search_icon{
+    width: 19px;
+}
+.sign_in a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.btn-1{
+    border: 1px solid white;
+}
+.btn-2{
+    background-color: whitesmoke;
+    color: #541554;
+}
+.btn-3{
+    background-color: whitesmoke;
+    color: #541554;
+    border-radius: 4px;
+}
