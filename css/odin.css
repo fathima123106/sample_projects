@@ -108,6 +108,107 @@
     width:291.33px;
     height: 72px;
 }
+.fourth_row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+    background-color: rgba(209, 209, 209, 0.966);
+}
+.heading_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content:center;
+}
+.first_div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+    gap: 2em;
+    
+}
 
- 
+.flex-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 183.3px;
+    height: 252px;
 
+}
+.flex-2 img{
+    width: 144px;
+    height: 160px;
+}
+.flex-2 a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+.ruby h3{
+    width: 129.15px;
+    height: 28px;
+}
+.Ruby{
+ margin-left: 30%;
+ padding-right: 0%;
+}
+.rails{
+    margin-right: 30%;
+}
+
+.second_div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+    gap: 2em;
+}
+.flex-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 183.3px;
+    height: 252px;
+}
+.flex-3 img{
+    width: 144px;
+    height: 160px;
+}
+.flex-3 a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+.intermediate{
+    margin-left: 30%;
+    padding-right: 0%;
+}
+.node{
+    margin-right: 30%;
+}
+#intermediates{
+    width: 123.4px;
+    height: 80px;
+    margin-left: 65px;
+    margin-right: 40px;
+}
+#advanced{
+    width: 123.4px;
+    height: 80px;
+    margin-left: 65px;
+    margin-right: 40px;
+
+}
+#node{
+    margin-left: 45px;
+    margin-right: 40px;
+}
