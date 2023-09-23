@@ -121,13 +121,19 @@
     justify-content: center;
     align-content:center;
 }
+.fourth_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .first_div{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content:center;
     gap: 2em;
-    
+    margin-bottom: 2em;
 }
 
 .flex-2{
@@ -154,13 +160,13 @@
     width: 129.15px;
     height: 28px;
 }
-.Ruby{
+/* .Ruby{
  margin-left: 30%;
  padding-right: 0%;
 }
 .rails{
     margin-right: 30%;
-}
+} */
 
 .second_div{
     display:flex;
@@ -168,6 +174,7 @@
     justify-content: center;
     align-content:center;
     gap: 2em;
+    margin-bottom: 2em;
 }
 .flex-3{
     display: flex;
@@ -188,13 +195,13 @@
     color: rgb(36, 36, 36);
 }
 
-.intermediate{
+/* .intermediate{
     margin-left: 30%;
     padding-right: 0%;
 }
 .node{
     margin-right: 30%;
-}
+} */
 #intermediates{
     width: 123.4px;
     height: 80px;
@@ -211,4 +218,47 @@
 #node{
     margin-left: 45px;
     margin-right: 40px;
+}
+
+.third_div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+.flex-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 183.3px;
+    height: 252px;
+}
+.flex-4 img{
+    width: 144px;
+    height: 160px;
+}
+.flex-4 a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+/* .Hired{
+    margin-left: 30%;
+    padding-right: 0%;
+}
+.React{
+    margin-right: 30%;
+} */
+.explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore button{
+    border-color: rgb(122, 122, 122);
+    color: black;
 }
