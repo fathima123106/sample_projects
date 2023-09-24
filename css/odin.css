@@ -13,6 +13,15 @@
     /* position: absolute;
     left: 30%; */
 }
+.get_started{
+    width: 125px;
+    height: 46px;
+    border-radius: 5px;
+     background-color: rgb(67, 119, 118);
+}
+.get_started:hover{
+    background-color: rgb(7, 78, 77)
+}
 #yellow_text{
     color: rgb(199, 138, 7);
 }
@@ -61,6 +70,8 @@
     /* width: 800px; */
     /* flex-direction: row; */
     /* gap: 2em; */
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 .demo_lbc{
     /* border: 1px solid black; */
@@ -113,7 +124,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content:center;
-    background-color: rgba(209, 209, 209, 0.966);
+    background-color: rgb(230, 233, 233);
 }
 .heading_2{
     display: flex;
@@ -257,8 +268,198 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px;
 }
 .explore button{
     border-color: rgb(122, 122, 122);
     color: black;
+    background-color: rgb(241, 242, 243);
+}
+
+.success_Stories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(180deg,rgb(250, 250, 250) ,rgb(230, 238, 239));
+}
+
+.success_stories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.success_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+
+}
+.rob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+     width: 576px;
+    height: 144px; 
+
+}
+.rob img{
+    width: 48px;
+    height: 48px;
+    border-radius: 99px;
+}
+.rob h4{
+    text-decoration: underline;
+}
+.rob p{
+    width: 480px;
+    height: 108px;
+}
+.cody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 576px;
+    height: 144px; 
+}
+.cody img{
+    width: 48px;
+    height: 48px;
+    border-radius: 99px;
+}
+.cody h4{
+    text-decoration: underline;
+}
+.cody p{
+    width: 480px;
+    height: 108px;
+}
+
+.success_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+
+}
+.andrej{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 576px;
+    height: 144px; 
+}
+.andrej img{
+    width: 48px;
+    height: 48px;
+    border-radius: 99px;
+}
+.andrej h4{
+    text-decoration: underline;
+}
+.andrej p{
+    width: 480px;
+    height: 108px;
+}
+.skip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 576px;
+    height: 144px; 
+}
+.skip img{
+    width: 48px;
+    height: 48px;
+    border-radius: 99px;
+}
+.skip h4{
+    text-decoration: underline;
+}
+.skip p{
+    width: 480px;
+    height: 108px;
+}
+.success_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.success_3 .read_more{
+    margin: 85px;
+}
+.success_3 a{
+    margin: 30px;
+    text-decoration: none;
+    color:rgb(83, 83, 83) ;
+    text-decoration: underline;
+    font-size: larger;
+    
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+.support_us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.support_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.support_para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 512px;
+    height: 40px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.btns .btns-1{
+    width: 124.917px;
+    height: 46px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.donates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 145.3px;
+    height: 46px;
+     background-color: rgb(13, 92, 91);
+     margin-left: 0px;
+     padding-left: 0px;
+    
+}
+.donates:hover{
+    background-color: rgb(7, 78, 77)
 }
