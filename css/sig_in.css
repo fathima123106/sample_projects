@@ -1,0 +1,27 @@
+.sign_in{
+    display: flex;
+    justify-self: center;align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign_heading{
+    display: flex;
+    justify-self: center;align-items: center;
+    flex: 1;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input .button-1{
+    background: url('../imgs/github.png');
+    background-position:center;
+    background-repeat:no-repeat;
+}
+form input .button-2{
+    background: url('../imgs/google.png');
+    background-position:center;
+    background-repeat:no-repeat;
+}

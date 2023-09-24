@@ -5,13 +5,29 @@
     /* position: absolute;
     left: 20%; */
 }
-.nav {
+.nav a{
     /* float: left;
     display: inline-block; */
     text-decoration: none;
-
+    color: rgb(208, 208, 208);
+    margin-top: 70px;
+    margin-bottom: 5px;
     /* position: absolute;
     left: 30%; */
+}
+.nav a:hover{
+    border-bottom: 1px solid rgb(182, 181, 181);
+}
+.sun img{
+    width: 23px;
+    height: 23px;
+}
+.sun img:hover{
+  text-decoration:underline rgb(182, 181, 181) ;
+}
+.sign{
+    width: 85px;
+    padding-right: 0%;
 }
 .get_started{
     width: 125px;
@@ -22,12 +38,27 @@
 .get_started:hover{
     background-color: rgb(7, 78, 77)
 }
+#your{
+    font-size: 65px;
+}
 #yellow_text{
+    font-size: 65px;
     color: rgb(199, 138, 7);
 }
 #head_tag{
+    font-size: 65px;
     text-align: center;
     
+}
+.our{
+    margin-top: 15px;
+    margin-left: 220px;
+    margin-bottom: 7px;
+}
+#our{
+    width:500px;
+    text-align: center;
+
 }
 .btn-3{
     display: flex;
@@ -156,7 +187,11 @@
     background-color: rgb(255, 255, 255);
     width: 183.3px;
     height: 252px;
+    border-radius: 5px;
 
+}
+.flex-2:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 }
 .flex-2 img{
     width: 144px;
@@ -196,6 +231,10 @@
     background-color: rgb(255, 255, 255);
     width: 183.3px;
     height: 252px;
+    border-radius: 5px;
+}
+.flex-3:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 }
 .flex-3 img{
     width: 144px;
@@ -248,6 +287,10 @@
     background-color: rgb(255, 255, 255);
     width: 183.3px;
     height: 252px;
+    border-radius: 5px;
+}
+.flex-4:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 }
 .flex-4 img{
     width: 144px;
@@ -290,6 +333,11 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .success_1{
     display: flex;
     justify-content: center;
@@ -312,12 +360,15 @@
     height: 48px;
     border-radius: 99px;
 }
-.rob h4{
+.rob a {
+    text-decoration: none;
+    color: black;
     text-decoration: underline;
 }
 .rob p{
     width: 480px;
     height: 108px;
+    color: rgb(88, 88, 88);
 }
 .cody{
     display: flex;
@@ -332,12 +383,15 @@
     height: 48px;
     border-radius: 99px;
 }
-.cody h4{
+.cody a {
+    text-decoration: none;
+    color: black;
     text-decoration: underline;
 }
 .cody p{
     width: 480px;
     height: 108px;
+    color: rgb(88, 88, 88);
 }
 
 .success_2{
@@ -361,12 +415,15 @@
     height: 48px;
     border-radius: 99px;
 }
-.andrej h4{
+.andrej a {
+    text-decoration: none;
+    color: black;
     text-decoration: underline;
 }
 .andrej p{
     width: 480px;
     height: 108px;
+    color: rgb(88, 88, 88);
 }
 .skip{
     display: flex;
@@ -381,12 +438,15 @@
     height: 48px;
     border-radius: 99px;
 }
-.skip h4{
+.skip a {
+    text-decoration: none;
+    color: black;
     text-decoration: underline;
 }
 .skip p{
     width: 480px;
     height: 108px;
+    color: rgb(88, 88, 88);
 }
 .success_3{
     display: flex;
@@ -413,6 +473,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 35px;
+    flex-direction: column;
 }
 .support_us{
     display: flex;
@@ -462,4 +523,73 @@
 }
 .donates:hover{
     background-color: rgb(7, 78, 77)
+}
+
+/*-----------------final div----------------*/
+.final_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 10px;
+
+}
+.first_col{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    flex: 2;
+}
+.second_row{
+    color: rgb(176, 176, 176);
+}
+.icons{
+    width: 24px;
+    height: 24px;
+}
+.second_col{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    flex: 1;
+}
+.second_row li{
+    list-style-type: none;
+}
+.second_row li a{
+    align-items: start;
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+}
+.third_col{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    flex: 1;
+}
+.fourth_col{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    flex: 1;
+}
+.fifth_col{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    flex: 1;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    color: rgb(124, 124, 124);
+
 }
