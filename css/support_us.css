@@ -3,7 +3,7 @@
     /* float: left;
     display: inline-block; */
     text-decoration: none;
-    color: rgb(208, 208, 208);
+    color: rgb(109, 107, 107);
     margin-top: 70px;
     margin-bottom: 5px;
     /* position: absolute;
@@ -98,30 +98,50 @@
     flex-direction: column;
     font-weight: bold;
     gap: 3em;
-    font-family:monospace;
+    /* font-family:monospace; */
+    font-size: 1.5em;
+    font-weight: 700px;
+    line-height: 1.3333333px;
+}
+.q2{
+    display: flex;
+    justify-content: center;
+
 }
 .q1{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     flex: 1;
     flex-wrap: wrap;
 }
-.q1 h5{
+.q2 h3{
     display: flex;
-    justify-content:center;
-    align-items: start;
-    margin-left: 0%;
     flex: 1;
+    flex-wrap: wrap;
     font-weight: bold;
+    font-size: 1.25em;
+    font-weight: 600px;
+    line-height: 1.6px;
+    margin-bottom: .6em;
+    margin-top: 1.6em;
+    width: fit-content;
+
 }
 .q1 p{
     display: flex;
     justify-content: center;
     align-items: start;
     flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: 810.667px;
+    margin-bottom: 1.25em;
+    margin-top: 1.25em;
+    /* color: rgb(93, 93, 93); */
+    color: var(--tw-prose-body);
+    font-size: large;
 }
 
 
