@@ -90,7 +90,7 @@
     flex-wrap: wrap;
     background-color:rgb(225, 236, 234) ;
 }
-.qstns h2{
+.qstns h1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,13 +99,14 @@
     font-weight: bold;
     gap: 3em;
     /* font-family:monospace; */
-    font-size: 1.5em;
+    font-size: 1.17px;
     font-weight: 700px;
     line-height: 1.3333333px;
 }
 .q2{
     display: flex;
     justify-content: center;
+    width: fit-content;
 
 }
 .q1{
@@ -121,26 +122,27 @@
     flex: 1;
     flex-wrap: wrap;
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 1.17em;
     font-weight: 600px;
     line-height: 1.6px;
     margin-bottom: .6em;
-    margin-top: 1.6em;
-    width: fit-content;
+    margin-top: 1.6em; 
+    /* width: fit-content; */
 
 }
 .q1 p{
     display: flex;
     justify-content: center;
-    align-items: start;
+
     flex: 1;
     flex-wrap: wrap;
     flex-direction: row;
     width: 810.667px;
+    font-size: 1.17em;
     margin-bottom: 1.25em;
     margin-top: 1.25em;
     /* color: rgb(93, 93, 93); */
-    color: var(--tw-prose-body);
+    color: rgb(82, 82, 82);
     font-size: large;
 }
 
