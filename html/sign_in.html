@@ -9,35 +9,80 @@
 </head>
 <body>
     <div class="container-fluid">
+        <div class="row navbar">
+            <div class="col-lg-6 col-md-12 col-sm-12 odin_icon  d-inline-flex justify-content-center">
+                <a href="odin.html"><img src="../imgs/the_odin_project_icon.png" alt=""></a>
+            </div>
+            <div class="col-lg-6">
+                <div class="row  nav d-inline-flex justify-content-center">
+                    
+                        <div class="col-lg-2">
+                            <a href="">All Paths</a>
+                        </div>
+                        <div class="col-lg-1">
+                            <a href="">About</a>
+                        </div>
+                        <div class="col-lg-2">
+                            <a href="">Community</a>
+                        </div>
+                        <div class="col-lg-2">
+                            <a href="support_us.html">Support us</a>
+                        </div>
+                        <div class="col-lg-2 me-0 sign">
+                            <a href="sign_in.html">Sign in</a>
+                        </div>
+                        <div class="col-lg-1 ms-0 sun">
+                            <a href=""><img src="../imgs/sun_icon.png" alt=""></a>
+                        </div>
+                        <div class="col-lg-2 ">
+                            <div>
+                                <button type="button" class="btn btn-success get_started ">Get started</button>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
         <div class="sign_in">
             <div class="sign_heading">
-                <h3>Sign in into your Account
-                    <br>or <a href="sign_up.html">sign up for a new Account</a>
-                </h3>
+                <strong><h3>Sign in into your Account</h3></strong> 
+                <p>or<a href="sign_up.html">sign up for a new Account</a></p> 
             </div>
-            <div class="form">
-                <form action="">
-                    <label for="email">Email Address</label>
-                    <br>
-                    <input type="email">
-                    <br><br>
-                    <label for="password">Password</label>
-                    <br>
-                    <input type="password">
-                    <br><br>
-                    <div class="forgo_rememer">
-                        <div class="remember">
-                            <input type="checkbox">
-                            <label for="remember_me">Remember me</label>
+            <div class="forms">
+                <div class="form_bg">
+                    <form action="" class="">
+                        <div class="inner_form">
+                            <div class="label">
+                                <label for="email">Email Address</label>
+                                <br>
+                            </div>
+                            <div class="input">
+                                <input type="email">
+                                <br><br>
+                            </div>
+                            <div class="label">
+                                <label for="password">Password</label>
+                                <br>
+                            </div>
+                            <div class="input">
+                                <input type="password">
+                                <br><br>
+                            </div>
+                            <div class="forgot_remember mb-4">
+                                <div class="remember">
+                                    <input type="checkbox">
+                                    <label for="remember_me">Remember me</label>
+                                </div>
+                                <div class="forgot">
+                                    <a href="">forgot your password?</a>
+                                </div>
+                            </div>
+                            <input type="button" value="Sign in" id="sign_in">
                         </div>
-                        <div class="forgot">
-                            <a href="">forgot your password?</a>
-                        </div>
-                    </div>
-                    <input type="button" value="Submit">
-                    <div class="hr">
-                        <p>------- or continue with -------</p>
-                    </div>
+                    </form>
+                </div>
+                <div class="below_form">
+                    <p>or continue with</p>
                     <div class="gg">
                         <div class="git-1">
                             <input type="button"class="button-1">
@@ -46,7 +91,7 @@
                             <input type="button"class="button-2" >
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
     </div>

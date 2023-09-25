@@ -1,0 +1,211 @@
+/*-----------------------navbar--------------------*/
+.nav a{
+    /* float: left;
+    display: inline-block; */
+    text-decoration: none;
+    color: rgb(208, 208, 208);
+    margin-top: 70px;
+    margin-bottom: 5px;
+    /* position: absolute;
+    left: 30%; */
+}
+.nav a:hover{
+    border-bottom: 1px solid rgb(182, 181, 181);
+}
+.sun img{
+    width: 23px;
+    height: 23px;
+}
+.sun img:hover{
+  text-decoration:underline rgb(182, 181, 181) ;
+}
+.sign{
+    width: 85px;
+    padding-right: 0%;
+}
+.get_started{
+    width: 125px;
+    height: 46px;
+    border-radius: 5px;
+     background-color: rgb(67, 119, 118);
+}
+.get_started:hover{
+    background-color: rgb(7, 78, 77)
+}
+
+/*-----------------first div---------------------*/
+
+.Support_project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    background-color: rgb(238, 246, 245);
+}
+.support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 2;
+    margin-top: 50px;
+}
+.support_heading h1{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 448px;
+    height: 36px;
+}
+.support_para{
+    width: 650px;
+    height: 112px;
+    align-items: center;
+}
+.support_para p{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.donate{
+    width: 125px;
+    height: 46px;
+    border-radius: 5px;
+     background-color: rgb(4, 73, 65);
+}
+/*------------------qstn------------------*/
+
+.qstns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:rgb(225, 236, 234) ;
+}
+.qstns h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    font-weight: bold;
+    gap: 3em;
+    font-family:monospace;
+}
+.q1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.q1 h5{
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    margin-left: 0%;
+    flex: 1;
+    font-weight: bold;
+}
+.q1 p{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex: 1;
+    width: 810.667px;
+}
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    flex-direction: column;
+}
+/*-----------------final div----------------*/
+.final_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 10px;
+
+}
+.first_col{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    flex: 2;
+}
+.second_row{
+    color: rgb(176, 176, 176);
+}
+.icons{
+    width: 24px;
+    height: 24px;
+}
+.second_col{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    flex: 1;
+}
+.second_row li{
+    list-style-type: none;
+}
+.second_row li a{
+    align-items: start;
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+}
+.third_row{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: row;
+}
+.third_col{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    flex: 1;
+}
+.fourth_col{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    flex: 1;
+}
+.fifth_col{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    flex: 1;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    color: rgb(124, 124, 124);
+
+}
