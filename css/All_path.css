@@ -32,3 +32,36 @@
 .get_started:hover{
     background-color: rgb(7, 78, 77)
 }
+/*-----------------------heading--------------------*/
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap; /*flex-wrap and flex-direction can be reduce like flex-flow*/
+    align-items: center;
+}
+.page_heading_title{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /*controls where the flex items sit on the main axis.*/
+}
+.first_card{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    flex: 1 ;
+
+}
+@media (min-width: 950px) {
+    .first_card{
+        width: 896px;
+        height: 309px;
+    }
+}
+.first_sub_card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
