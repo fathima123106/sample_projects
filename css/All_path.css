@@ -40,28 +40,78 @@
     flex-flow: column wrap; /*flex-wrap and flex-direction can be reduce like flex-flow*/
     align-items: center;
 }
-.page_heading_title{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; /*controls where the flex items sit on the main axis.*/
-}
-.first_card{
+.page_heading_title {
     display: flex;
     justify-content: center;
-    flex-flow: column wrap;
     align-items: center;
-    flex: 1 ;
+    flex-wrap: wrap;
+    margin: 45px;
+}
+.page_heading_title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* tcontrols where the flex items si on the main axis.*/
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 
 }
-@media (min-width: 950px) {
-    .first_card{
-        width: 896px;
-        height: 309px;
-    }
+.fist_card{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    flex: 1;
+    align-items: flex-start;
+    max-width: 896px;
+    max-height: 309px;
+    border: 1px solid gray;
 }
-.first_sub_card{
+/* .first_sub_card{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: auto;
+    gap: 7em;
+    border: 1px solid gray;
+    max-width: 893px;
+    max-height: 305px;
+} */
+.first_section{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    flex-direction: row;
+    gap:2em
+}
+.second_section{
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    flex-wrap:wrap;
+    /* margin-left: 200px; */
+}
+.second_sub_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* overflow-wrap: break-word; */
+   
+}
+.card_para{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px;
+    
+
 }
