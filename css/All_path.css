@@ -1,3 +1,10 @@
+body{
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+.font-medium{
+    font-weight: 500;
+}
+
 /*-----------------------navbar--------------------*/
 .nav a{
     /* float: left;
@@ -65,13 +72,13 @@
 .fist_card{
     display: flex;
     justify-content:space-around;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     /* flex-direction: column; */
     flex: 1;
     align-items: flex-start;
     max-width: 896px;
     max-height: 309px;
-    border: 1px solid gray;
+
 }
 /* .first_sub_card{
     display: flex;
@@ -112,6 +119,21 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 25px;
-    
+    overflow-wrap: break-word;
+}
 
+/*----------------After prtician------------------*/
+.middle_partision{
+    display: flex;
+    justify-content: center;
+    align-items: center;flex-wrap: wrap;
+}
+.the_middle_text{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-left: .75rem;
+  padding-right: .75rem;
+}
+.bg-text{
+    --tw-bg-opacity:1;
 }
