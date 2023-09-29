@@ -1,0 +1,50 @@
+.main_col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* @media only screen and (min-width: 768px){
+    .first_secssion{
+        display: flex;
+        flex: 0;
+    
+    }
+    .second_secssion{
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+        flex-direction: column;
+        column-gap: 2em;
+    }
+    .third_secssion{
+        display: flex;
+        flex: 0;
+    }
+
+}
+
+.first_secssion{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.second_secssion{
+    
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.third_secssion{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+} */
+.second_secssion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
