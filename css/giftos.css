@@ -1,0 +1,8 @@
+.first_heading{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navbar{
+    display: flex;
+}
