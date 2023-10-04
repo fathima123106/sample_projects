@@ -22,8 +22,8 @@
         flex: 0;
     }
 
-}
-
+} */
+/* 
 .first_secssion{
     display: flex;
     flex: 1;
@@ -47,4 +47,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 810.667px;
 }
