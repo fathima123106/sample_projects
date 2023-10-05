@@ -1,8 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
 .first_heading{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 2em;
 }
 .navbar{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ul{
+    display: flex;
+    margin: 2em;
+    flex-wrap: wrap;
+}
+.nav_1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav_1 li{
+   list-style-type: none;
+   padding-left: 2em;
+}
+.nav_1 a{
+ display: flex;
+ flex-wrap: wrap;
+ text-decoration: none;
+ color: black;
 }
