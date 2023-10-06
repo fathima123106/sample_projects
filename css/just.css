@@ -1,0 +1,9 @@
+.container{
+    background-color: blanchedalmond;
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        background-color: aqua;
+    }
+}
