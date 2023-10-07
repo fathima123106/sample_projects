@@ -20,6 +20,7 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     margin: 1em 2.3em 1em 2.3em;
+    background-color: blanchedalmond;
 }
 .navbar{
     display: flex;
@@ -38,7 +39,7 @@ ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: blanchedalmond;
+    
 }
 
 .nav_1 li{
@@ -56,7 +57,7 @@ ul{
     font-size: large;
 }
 #person{
-    max-width:19px ;
+    max-width:20px ;
 }
 #carrybag{
     max-width:18px ;
@@ -64,28 +65,34 @@ ul{
 #search{
     max-width:18px ;
 }
-/* .login{
+.login{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    margin-top:.5em ;
 }
 .login a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 1.5em;
+    /* margin-top: 1.5em; */
     text-decoration: none;
     color: black;
 }
 
 .text li{
     list-style-type: none;
-    margin-top: .25em;
-    padding-left: .5em;
+    /* margin-top: .25em; */
+    padding-left: .6em;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: large;
-} */
+}
+.nav_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 /*---------------------------------first page-------------------------*/
 
