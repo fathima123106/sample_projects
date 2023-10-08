@@ -218,7 +218,7 @@ body{
  }
 
 
- /*---------------------SECOND SECCION--------------------*/
+ /*---------------------SECOND SESSION--------------------*/
 
  .second_heading{
     display: flex;
@@ -313,7 +313,7 @@ body{
     background-color: #ffffff;
     color:  #f16179;;
  }
-/*--------------------------third seccion---------------------*/
+/*--------------------------third session---------------------*/
 
 .container_3{
     display: flex;
@@ -454,7 +454,7 @@ body{
     }
  }
 
- /*-------------------------fourth_seccion----------------------------*/
+ /*-------------------------fourth_session----------------------------*/
 .third_heading{
     display: flex;
     justify-content: center;
@@ -475,7 +475,7 @@ body{
     align-items: center;
     max-height: 440px;
     min-height: 195px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .icon img{
     max-width: 88px;
@@ -491,7 +491,7 @@ body{
     padding-right: 2em;
 }
 
-/*---------------------fifth seccion------------*/
+/*---------------------fifth session------------*/
 .container_5{
     display: flex;
     justify-content: center;
@@ -640,7 +640,7 @@ body{
     }
  }
 
- /*----------------------sixth seccion--------------------------*/
+ /*----------------------sixth session--------------------------*/
  .container_6{
     display: flex;
     justify-content: center;
@@ -653,29 +653,311 @@ body{
  }
  .fourth_heading{
     display: flex;
-    align-self: flex-start;
-    margin-left: 16rem;
+    justify-content: center;
+    align-items: center;
+    margin:3rem;
     /* border: 1px solid black; */
  }
  .form_map{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    column-gap: 2rem;
-    padding: 3rem;
-    border: 1px solid black;
-
+    /* column-gap: 2rem; */
+    width: 90%;
+    flex-wrap: wrap;
+    /* padding: 3rem; */
+    /* border: 1px solid red; */
+    /* box-shadow: 0px 3px 10px 6px rgba(0,0,0,0.5); */
+    border-radius: 10px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 3px 1px 15px;
  }
  .google-map {
-    border: 1px solid black;
-
+    /* border: 1px solid black; */
+    display: flex;
     width: 49%;
  }
- iframe{
-    max-width: 400px;
+ .google-map iframe{
+    box-sizing: border-box;
+    width: 100%;
  }
  .form{
-    width: 49%;
-    border: 1px solid black;
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 49%;
+    min-height:650px;
+    gap: 3rem;
+    /* border: 1px solid black; */
+    padding-top: 2em;
  }
+ .frm1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .frm1 input{
+    min-width:520px ;
+    min-height: 70px;
+    margin-left: 3rem;
+ }
+  .msg input{
+    max-width: 520px;
+    min-height: 150px;
+}
+.button_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_5 button{
+
+    background-color: rgb(222, 36, 98);
+    border: #DE2462;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.button_5 button:hover{
+    background-color: transparent;
+    border:1px solid #DE2462;
+    color: #DE2462;
+}
+@media only screen and (max-width:1250px){
+
+    .form_map{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .google-map {
+        /* border: 1px solid black; */
+        display: flex;
+        width: 90%;
+        /* order: 2; */
+     }
+     .form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        max-width: 90%;
+        min-height:650px;
+        /* gap: 2rem; */
+        /* border: 1px solid black; */
+        /* padding-top: 2em; */
+     }
+     .frm1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .frm1 input{
+        align-self: flex-start;
+        margin-left: 0%;
+        max-width: 450px;
+        
+     }
+    .button_5{
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .button_5 button{
+        background-color: rgb(222, 36, 98);
+        width: 100%;
+        border: #DE2462;
+        color: white;
+        border: none;
+        padding: 10px 25px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    .button_5 button:hover{
+        background-color: transparent;
+        border:1px solid #DE2462;
+        color: #DE2462;
+    }
+}
+@media only screen and (max-width:768px){
+    .form_map{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .google-map {
+        /* border: 1px solid black; */
+        display: flex;
+        width: 90%;
+        /* order: 2; */
+     }
+     .form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        max-width: 90%;
+        min-height:650px;
+        /* gap: 2rem; */
+        /* border: 1px solid black; */
+        /* padding-top: 2em; */
+     }
+     .frm1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .frm1 input{
+        align-self: flex-start;
+        margin-left: 0%;
+        min-width: 300px;
+        
+     }
+    .button_5{
+        width: 90%;
+        /* border: 1px solid black; */
+    }
+    .button_5 button{
+        background-color: rgb(222, 36, 98);
+        width: 100%;
+        border: #DE2462;
+        color: white;
+        border: none;
+        padding: 10px 25px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    .button_5 button:hover{
+        background-color: transparent;
+        border:1px solid #DE2462;
+        color: #DE2462;
+    }
+}
+/*-----------------------------seventh session-------------------*/
+.fifth_heading{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4em;
+}
+.container_7{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   justify-content: center;
+    align-items: center;
+
+}
+.controler_left button{
+    background-color: #db4f66;
+  color: white;
+  border: 1px solid #db4f66;
+  padding: 50px 15px;
+  font-size: 20px;
+}
+
+.controler_Right button{
+    background-color: #db4f66;
+    color: white;
+    border: 1px solid #db4f66;
+    padding: 50px 15px;
+    font-size: 20px;
+}
+
+.center_part{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  max-width: 70%;
+  gap: 1em;
+  padding-left: 1.2em;
+  /* text-align: center; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.center_part .heading h2{
+    color: #db4f66;
+    margin: 1em;
+    text-align: start;
+    padding-left: 1em;
+}
+.default h3{
+    color: gray;
+    margin-block-start: .5em;
+}
+
+/*-----------------------------eighth session--------------------*/
+
+.container_8{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-top: 5em;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em;
+    gap: 3em;
+}
+.icons img{
+    width: 25px;
+    height: 25px;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.ftr{
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    height: 165px;
+    /* gap: 1em; */
+}
+.ftr .h3{
+    margin-bottom: 1em;
+}
+
+.second_link .input_footer input{
+    /* border: 1px solid white; */
+    width: 99%;
+    height: 3em;
+    margin-bottom: .5em;
+}
+.button_6 button{
+    background-color: pink;
+  color: white;
+  padding: 10px 30px;
+  border: 1px solid pink;
+}
+.lists1{
+    list-style-type: none;
+}
+.footer_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    border-top: 2px solid rgb(246, 246, 246);
+}
+footer{
+    margin: .6em 3em 3em 3em;
+
+}
